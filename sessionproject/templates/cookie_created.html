@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Created</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f0e6d6, #d6d9df);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 600;
+            color: #4a4a4a;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #707070;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            font-weight: 300;
+            color: #808080;
+        }
+
+        .header-text {
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.6rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="header-text">Kamaraj College of Engineering and Technology</p>
+        <br>
+        <p class="header-text">Web Applications using Django Framework</p>
+        <p class="header-text">Deepasri R <br>22UIT115</p>
+        <h1>Cookie Created Successfully for {{ username }}</h1>
+        <h2>Your mobile number: {{ mobile }}</h2>
+    </div>
+</body>
+</html>
